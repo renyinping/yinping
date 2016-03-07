@@ -365,6 +365,11 @@
               <FileType>1</FileType>
               <FilePath>..\..\src\8051\uart.c</FilePath>
             </File>
+            <File>
+              <FileName>uart_isr.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\src\8051\uart_isr.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>

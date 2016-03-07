@@ -14,8 +14,14 @@
 #define UART_RATE 2400
 
 
-//#undef UART_CFG_CODE
-//#undef UART_INIT_CODE
+/* 禁用函数变量 */
+//#undef CODE_UART_CFG
+//#undef CODE_UART_TEST
+//#undef CODE_UART_INIT
+//#undef CODE_UART_RX_BYTE
+//#undef CODE_UART_RX_BYTE
+//#undef CODE_PUTCHAR
+//#undef CODE_GETKEY
 
 
 #endif /* CONFIG_H */
