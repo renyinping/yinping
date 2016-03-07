@@ -47,7 +47,7 @@
           <OutputName>uart</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
-          <CreateHexFile>0</CreateHexFile>
+          <CreateHexFile>1</CreateHexFile>
           <DebugInformation>1</DebugInformation>
           <BrowseInformation>1</BrowseInformation>
           <ListingPath>.\listings\</ListingPath>
@@ -298,7 +298,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath></IncludePath>
+              <IncludePath>..\..\inc\8051</IncludePath>
             </VariousControls>
           </C51>
           <Ax51>
@@ -354,6 +354,16 @@
               <FileName>STARTUP.A51</FileName>
               <FileType>2</FileType>
               <FilePath>.\STARTUP.A51</FilePath>
+            </File>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\src\8051\uart.c</FilePath>
             </File>
           </Files>
         </Group>
