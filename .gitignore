@@ -1,1 +1,14 @@
 !.gitignore
+
+# uv4
+objects/
+listings/
+*_uvopt.bak
+*_uvproj.bak
+*.uvgui_*.bak
+*.uvgui.*
+
+# proteus
+Last Loaded *.DBK
+*.PWI
+*.SDF
